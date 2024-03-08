@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirdWatcher", "BirdWatcher\BirdWatcher.csproj", "{856AB86F-73D5-484A-8CD4-89225010DF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeedForSpeed", "NeedForSpeed\NeedForSpeed.csproj", "{D49BE4E9-5E10-4B93-B8C5-9B50A0DA1697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{856AB86F-73D5-484A-8CD4-89225010DF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856AB86F-73D5-484A-8CD4-89225010DF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856AB86F-73D5-484A-8CD4-89225010DF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856AB86F-73D5-484A-8CD4-89225010DF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49BE4E9-5E10-4B93-B8C5-9B50A0DA1697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49BE4E9-5E10-4B93-B8C5-9B50A0DA1697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49BE4E9-5E10-4B93-B8C5-9B50A0DA1697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49BE4E9-5E10-4B93-B8C5-9B50A0DA1697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
