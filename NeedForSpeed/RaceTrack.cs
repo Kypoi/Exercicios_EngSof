@@ -15,4 +15,14 @@ public class RaceTrack{
 	}
 
 	//methods
+	public bool TryFinishTrack(RemoteControlCar car) {
+		Console.WriteLine($"{(car.Speed * (100/ (double)car.BatteryDrain))}!!!!!!");
+		if ((car.Speed * (100/ (double)car.BatteryDrain)) > this.distance) {
+			Console.WriteLine($"O carro consegue!{car.Speed * (100/ (double)car.BatteryDrain)}");
+			return true;
+		}else {
+			Console.WriteLine($"O carro nao consegue!{car.Speed * (100/ (double)car.BatteryDrain)}");
+			return false;
+		}
+	}
 }

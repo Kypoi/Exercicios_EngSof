@@ -4,6 +4,7 @@ public class RemoteControlCar{
   //attributes
   private int speed;
   private int batteryDrain;
+  private int battery;
   private static int distanceDriven = 0;
   
   //Getters and Setters
@@ -21,6 +22,7 @@ public class RemoteControlCar{
   public RemoteControlCar(int speed,int batteryDrain){
     this.speed = speed;
     this.batteryDrain = batteryDrain;
+    this.battery = 100;
   }
 
   public static RemoteControlCar Nitro(){
@@ -30,7 +32,7 @@ public class RemoteControlCar{
   //methods
   public void Drive(){
     distanceDriven += this.speed;
-    this.batteryDrain -= 1;
+    this.battery -= this.batteryDrain;
     Console.WriteLine($"+ {this.speed}!");
   }
   public void DistanceDriven(){

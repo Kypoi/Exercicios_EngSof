@@ -6,10 +6,8 @@ public class main{
   public static void Main(string[] args){
     int speed = 5;
     int batteryDrain = 2;
-    var car = RemoteControlCar.Nitro();
-    car.Drive();
-    car.Drive();
-    car.DistanceDriven();
-    car.BatteryDrained();
+    RemoteControlCar car = new RemoteControlCar(5, 15);
+    RaceTrack track1 = new RaceTrack(800);
+    track1.TryFinishTrack(car);
   }
 }
